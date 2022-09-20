@@ -7,7 +7,10 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: "Goldman", cursive;
+  font-family: "Bungee Spice", cursive;
+  color: white;
+  position: absolute;
+  background-color: black;
 }
 
 nav {
@@ -36,4 +39,29 @@ nav a {
 }
 nav img {
   width: 5vw;
+}
+
+footer{
+  background-color: #00a8c7;
+  height: 40px;
+  text-align: center;
+  text
+}
+
+
+section {
+  width: 100vw;
+  height: 100vh;
+}
+
+
+h1 {
+  font-size: 5rem;
+}
+
+.ss {
+  background-image: url(hacker1.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
 }

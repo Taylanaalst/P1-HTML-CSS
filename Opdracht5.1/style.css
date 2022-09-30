@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62,5%;
+}
+
+body {
+    position: relative;
+}
+
+button {
+    top: 2rem;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+}
+
+nav {
+    position: fixed;
+}

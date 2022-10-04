@@ -1,0 +1,30 @@
+.child1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+.child2 {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+
+.child3 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.child4 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    width: 1200px;
+}

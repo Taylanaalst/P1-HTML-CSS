@@ -1,0 +1,123 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    background-color: red;
+    color: white;
+    height: 10%;
+    padding-top: 1.5vh;
+    padding-left: 3vw;
+}
+
+.title1{
+    background-color: yellow;
+    height: 30%;
+}
+
+.title2{
+    background-color: orange;
+    height: 30%;
+}
+
+.title3{
+    background-color: green;
+    height: 30%;
+}
+
+@media (max-width: 390px){
+
+    h1{
+        color: white;
+        background-color: rgb(153, 125, 219);
+        height: 10%;
+        padding: 5%;
+    }
+   
+    h2{
+        align-self: center;
+    }
+    .h22 {
+        padding-left: 25vw;
+     }
+
+     .h23 {
+        padding-left: 25vw;
+     }
+
+     .h24 {
+        padding-left: 25vw;
+     }
+
+    .title1{
+        background-color: lightblue;
+        height: 30%;
+        width: 100%;
+        color: white;
+        padding: 13%;
+
+    }
+    
+    .title2{
+        background-color: purple;
+        height: 30%;
+        width: 100%;
+        color: white;
+        padding: 13%;
+    }
+    
+    .title3{
+        background-color: rgb(47, 47, 82);
+        height: 30%;
+        width: 100%;
+        color: white;
+        padding: 13%;
+    }
+}
+
+@media (min-width: 820px){
+    main{
+        background-color: pink;
+    }
+    h1{
+        justify-self: center;
+        color: white;
+        background-color: pink;
+        padding-left: 45vw;
+    }
+   
+    h2{
+        align-self: center;
+    }
+    
+    .title1{
+        background-color: red;
+        color: white;
+        padding: 1rem;
+
+    }
+    
+    .title2{
+        background-color: rgb(73, 37, 172);
+        color: white;
+        padding: 1rem;
+    }
+    
+    .title3{
+        background-color: blue;
+        color: white;
+        padding: 1rem;
+}
+}
